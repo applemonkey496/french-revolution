@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+   height: 100%;
+
+   font-family: 'Open Sans', sans-serif;
+
+   --france-blue: #001e96;
+   --france-red: #ee2336;
+}
+
+body {
+   min-height: 100%;
+}
+
+html, body {
+    width: 100%;
+    margin: 0px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    
+    font-family: 'Montserrat';
+    background-color: #333;
+    color: #d3d3d3;
+
+    transition: opacity 1s;
+}
+
+.nav, .nav .flag-link, .nav .flag, .nav .pages {
+    height: 45px;
+}
+
+.nav h1 {
+    margin: 0 7px;
+    font-size: 30px;
+    color: #d3d3d3;
+}
+
+.nav .pages {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav .pages * {
+    padding: 0px 10px;
+}

@@ -1,0 +1,62 @@
+
+.bg-hero.main {
+    background-image: url('../img/tennis-court-oath.jpg');
+    background-position-x: center;
+}
+
+.bg-hero.causes {
+    background-image: url('../img/estates-general.jpg');
+    background-position: center center;
+}
+
+.bg-hero.timeline {
+    background-image: url('../img/louis-xvi-execution.jpg');
+    background-position: center center;
+}
+
+.bg-hero.impacts {
+    background-image: url('../img/french-revolution-delacroix.jpg');
+    background-position: center center;
+}
+
+.bg-hero {
+    height: 100vh;
+    background-color: #a5a5a5;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-hero * {
+    margin: 15px;
+    padding: 10px;
+
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.bg-hero.causes a {
+    border: 2px solid var(--france-blue);
+    color: var(--france-blue);
+}
+
+.bg-hero.timeline a {
+    border: 2px solid white;
+    color: white;
+}
+
+.bg-hero.impacts a {
+    border: 2px solid var(--france-red);
+    color: var(--france-red);
+}
+
+.nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}

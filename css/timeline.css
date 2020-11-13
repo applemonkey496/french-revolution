@@ -1,0 +1,36 @@
+
+h1 {
+    margin: 0;
+    font-size: 58px;
+}
+
+section {
+    padding: 10px 20px;
+}
+
+section .content p {
+    margin: 15px 0;
+}
+
+body section:first-of-type {
+    padding-top: 20px;
+}
+
+section .content .caption {
+    font-style: italic;
+    font-size: 14px;
+    margin: 0;
+    max-width: 40%;
+}
+
+section .content .caption i {
+    font-style: normal;
+}
+
+section .content img {
+    width: 50%;
+}
+
+section .content img.smaller {
+    width: 40%;
+}
