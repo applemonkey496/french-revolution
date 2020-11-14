@@ -1,5 +1,14 @@
 
 const fontImport = 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+const iconImport = 'https://kit.fontawesome.com/0555eee51e.js';
+
+let onViaClick = false;
+let visible = false;
+
+// import $ from 'jquery';
+
+styles.unshift(fontImport);
+scripts.unshift(iconImport);
 
 $(document).ready(() => {
     for (url of scripts) {
@@ -8,7 +17,6 @@ $(document).ready(() => {
         document.body.appendChild(script);
     }
 
-    styles.unshift(fontImport);
     for (url of styles) {
         const style = document.createElement('link');
         style.rel = 'stylesheet';
