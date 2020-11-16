@@ -1,0 +1,38 @@
+
+ul {
+    margin: 5px 0;
+}
+
+.show-content {
+    user-select: none;
+    margin: 7px 0;
+}
+
+.show-content + p {
+    margin-top: 0;
+}
+
+.show-content:hover {
+    color: #333;
+}
+
+.show-content:hover i {
+    transform: rotate(20deg);
+}
+
+.show-content.active:hover i {
+    transform: rotate(160deg);
+}
+
+.show-content i {
+    transition: transform 0.5s;
+    transform: rotate(0deg);
+}
+
+.show-content.active i {
+    transform: rotate(180deg);
+}
+
+.show-content.active ~ * {
+    display: none;
+}
