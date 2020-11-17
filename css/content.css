@@ -70,3 +70,10 @@ section .content img.smaller {
 .two-col.content h2 {
     margin-top: 20px;
 }
+
+.serif {
+    font-family: 'Times New Roman', sans-serif;
+    line-height: 2;
+    padding: 0 25px;
+    white-space: pre-wrap;
+}
