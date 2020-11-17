@@ -4,6 +4,7 @@ ul {
 }
 
 .show-content {
+    display: inline-block;
     user-select: none;
     margin: 7px 0;
 }
@@ -35,4 +36,8 @@ ul {
 
 .show-content.active ~ * {
     display: none;
+}
+
+.brinton h3 + p {
+    margin: 14px 0 8px;
 }
