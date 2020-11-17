@@ -46,3 +46,27 @@ section .content img {
 section .content img.smaller {
     width: 40%;
 }
+
+.two-col.content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+.two-col.content .left {
+    width: 25%;
+}
+
+.two-col.content .left img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.two-col.content .right {
+    width: 70%
+}
+
+.two-col.content h2 {
+    margin-top: 20px;
+}

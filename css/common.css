@@ -72,6 +72,8 @@ a:link, a:visited, a:hover, a:active {
     right: 0;
     top: -100px;
 
+    padding: 7px 14px;
+
     transition: top 0.3s;
     transition-delay: 0.2s;
 
@@ -79,9 +81,6 @@ a:link, a:visited, a:hover, a:active {
     
     display: flex;
     flex-direction: column;
-
-    height: 100px;
-    width: 150px;
 }
 
 .nav .fas:hover + .more, .nav .more:hover {
@@ -89,5 +88,9 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .nav .more a {
+    text-align: right;
+    padding: 4px 0;
+    max-width: 185px;
+    line-height: 1;
     z-index: 1000;
 }
