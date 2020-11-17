@@ -2,3 +2,12 @@
 video {
     width: 100%;
 }
+
+.video-link {
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.video-link:hover {
+    color: grey;
+}
