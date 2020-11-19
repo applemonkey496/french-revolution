@@ -3,11 +3,11 @@ video {
     width: 100%;
 }
 
-.video-link {
-    color: #333;
+#video-link {
+    color: #000080;
     margin-bottom: 50px;
 }
 
-.video-link:hover {
+#video-link:hover {
     color: grey;
 }
