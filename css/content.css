@@ -39,8 +39,16 @@ section .content .caption i {
     font-style: normal;
 }
 
-section .content img, #overview img {
+section .content img {
     width: 50%;
+}
+
+#overview img {
+    width: 67%;
+}
+
+#overview img:not(:first-of-type) {
+    margin-top: 25px;
 }
 
 section .content img.smaller {
