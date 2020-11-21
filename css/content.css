@@ -39,7 +39,7 @@ section .content .caption i {
     font-style: normal;
 }
 
-section .content img {
+section .content img, #overview img {
     width: 50%;
 }
 
