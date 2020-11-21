@@ -28,7 +28,7 @@ body section:first-of-type {
     padding-top: 20px;
 }
 
-section .content .caption {
+section .content .caption, #overview .caption {
     font-style: italic;
     font-size: 14px;
     margin: 0;
